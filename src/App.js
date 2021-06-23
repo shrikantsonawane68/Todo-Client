@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './bootstrap.css'
+
+//import FirstComponent from './Components/FirstComponent/FirstCOmponent';
+//import FunctionComponent from './Components/FunctionComponent/FunctionComponent';
+//import Counter from './Components/CounterComponent/CounterComponent';
+import TodoComponent from './Components/TodoComponent/TodoComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          {/* <Counter></Counter> */}
+          <TodoComponent/>
     </div>
   );
 }
