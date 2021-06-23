@@ -1,0 +1,25 @@
+.incrementButton{
+    background-color: brown;
+    font-size: 40px;
+    color: beige;    
+    padding: 50px;       
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.label1{
+    background-color: blueviolet;
+    font-size: 40px;
+    color: rgb(24, 10, 10);        
+    margin: 10px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.reset{
+    background-color: red;
+    font-size: 40px;
+    width: 200px;
+    margin:10px;
+}
